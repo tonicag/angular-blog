@@ -1,0 +1,76 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "The Beauty of Nature",
+      "content": "Nature never ceases to amaze us with its breathtaking beauty. From majestic mountains to serene lakes, every landscape holds a unique charm.",
+      "date": "2023-07-25"
+    },
+    {
+      "id": 2,
+      "title": "Exploring Ancient Ruins",
+      "content": "Diving into the mysteries of ancient civilizations, wandering through their ruins, and discovering their forgotten stories is an adventure like no other.",
+      "date": "2023-07-23"
+    },
+    {
+      "id": 3,
+      "title": "A Culinary Journey",
+      "content": "Embark on a mouthwatering journey through various cuisines, savoring delicacies that delight your taste buds and leave you craving for more.",
+      "date": "2023-07-20"
+    },
+    {
+      "id": 4,
+      "title": "Finding Inner Peace",
+      "content": "In a world full of chaos, finding inner peace is a challenging yet rewarding endeavor. Explore mindfulness practices and self-discovery to achieve serenity.",
+      "date": "2023-07-18"
+    },
+    {
+      "id": 5,
+      "title": "Unraveling the Universe",
+      "content": "Delve into the wonders of the cosmos, from distant galaxies to the mysteries of dark matter, as we strive to understand the vastness of the universe.",
+      "date": "2023-07-15"
+    },
+    {
+      "id": 6,
+      "title": "Art that Inspires",
+      "content": "Art has the power to move us, inspire us, and challenge our perspectives. Discover artists and their creations that have left a lasting impact on humanity.",
+      "date": "2023-07-12"
+    },
+    {
+      "id": 7,
+      "title": "Adventures in the Wilderness",
+      "content": "Venture into the heart of the wilderness, encountering breathtaking landscapes, diverse wildlife, and experiences that connect us to the natural world.",
+      "date": "2023-07-10"
+    },
+    {
+      "id": 8,
+      "title": "The Evolution of Technology",
+      "content": "From primitive tools to cutting-edge innovations, technology has shaped the course of human history, revolutionizing the way we live and interact.",
+      "date": "2023-07-07"
+    },
+    {
+      "id": 9,
+      "title": "Celebrating Cultural Festivals",
+      "content": "Immerse yourself in the vibrant celebrations of cultural festivals worldwide, where traditions, music, and dance come together in joyous harmony.",
+      "date": "2023-07-05"
+    },
+    {
+      "id": 10,
+      "title": "Journey through Time",
+      "content": "Step into the past and relive significant historical events, gaining insights into the triumphs and tribulations that have shaped our world.",
+      "date": "2023-07-02"
+    },
+    {
+      "id": 11,
+      "title": "daw",
+      "content": "## Heading 2\n\nThis is a **Markdown** example.\n\n   - List item 1\n    - List item 2ddwa\n    - List item 3",
+      "date": "2023-07-26T11:03:15.400Z"
+    },
+    {
+      "id": 12,
+      "title": "test",
+      "content": "## Heading 2\n\nThis is a **Markdown** example.\n\n- List item 1\n- List item 2\n- List item 3",
+      "date": "2023-07-26T14:11:04.105Z"
+    }
+  ]
+}

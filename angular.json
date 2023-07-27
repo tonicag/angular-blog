@@ -63,9 +63,11 @@
               "browserTarget": "blog:build:production"
             },
             "development": {
-              "browserTarget": "blog:build:development"
+              "browserTarget": "blog:build:development",
+              "proxyConfig": "proxy.conf.json"
             }
           },
+          
           "defaultConfiguration": "development"
         },
         "extract-i18n": {

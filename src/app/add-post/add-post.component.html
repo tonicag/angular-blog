@@ -1,0 +1,19 @@
+<form class="post-form" [formGroup]="newPost" (ngSubmit)="onFormSubmit()">
+    <div class="post-form-div">
+        <label>Title</label>
+        <input type="text" formControlName="title" (ngModelChange)="onInputChange($event)" [ngClass]="{ 'notValidated': newPost.get('title')?.invalid && newPost.get('title')?.touched }">
+        <label>Content</label>
+        <textarea [(ngModel)]="markdownContent" (ngModelChange)="onInputChange($event)" formControlName="content" [ngClass]="{ 'notValidated': newPost.get('content')?.invalid && newPost.get('content')?.touched }"></textarea>
+        <div style="display: flex; justify-content: center; margin: 15px;">
+            <button  class="submit-button" type="submit">Submit</button>
+        </div>
+    </div>
+</form>
+<div class="preview-heading">
+    <p>PREVIEW</p>
+</div>
+<div>
+    <app-blog-post [buttonDisabled]="true" [ngClass]="{ 'disabled' : !newPost.valid}" [post]="previewBlogPost">
+
+    </app-blog-post>
+</div>

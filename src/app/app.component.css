@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #526D82;
+    margin: 0;
+}
+.inner-container {
+    display: flex;
+    justify-content: center;
+
+    width: 70%;
+}
