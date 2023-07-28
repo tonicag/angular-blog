@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import {HttpClientModule} from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { BlogPostComponent } from './blog-post/blog-post.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AddPostComponent } from './add-post/add-post.component';
@@ -19,7 +19,7 @@ import { MarkdownModule } from 'ngx-markdown';
     AddPostComponent,
     AllPostsComponent,
     DetailViewComponent,
-    NavbarComponent
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,9 +27,9 @@ import { MarkdownModule } from 'ngx-markdown';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    MarkdownModule.forRoot()
+    MarkdownModule.forRoot(),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

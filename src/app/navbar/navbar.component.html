@@ -1,6 +1,20 @@
 <nav>
-    <ul class="navabar-list">
-        <li class="navbar-link"><a [routerLink]="'allPosts'" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
-        <li class="navbar-link"><a [routerLink]="'newPost'" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Add new blog post!</a></li>
-    </ul>
+  <ul class="navabar-list">
+    <li class="navbar-link">
+      <a
+        [routerLink]="'post'"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Home</a
+      >
+    </li>
+    <li class="navbar-link">
+      <a
+        [routerLink]="'post/new'"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Add new blog post!</a
+      >
+    </li>
+  </ul>
 </nav>

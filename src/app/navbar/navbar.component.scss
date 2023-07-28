@@ -1,0 +1,29 @@
+$primary-color: #27374d;
+.navabar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 5px solid #fff;
+  background-color: $primary-color;
+}
+
+.navbar-link {
+  float: left;
+  a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16pt;
+  }
+  a:hover:not(.active) {
+    background-color: #ddd;
+    color: black;
+  }
+  a.active {
+    color: black;
+    background-color: #fff;
+  }
+}

@@ -6,14 +6,14 @@ import { AllPostsComponent } from './all-posts/all-posts.component';
 import { DetailViewComponent } from './detail-view/detail-view.component';
 
 const routes: Routes = [
-  {path:'',redirectTo: 'allPosts',pathMatch: 'full'},
-  {path: 'newPost', component: AddPostComponent},
-  {path: 'allPosts', component: AllPostsComponent},
-  {path: 'post/:id', component: DetailViewComponent}
+  { path: '', redirectTo: 'post', pathMatch: 'full' },
+  { path: 'post/new', component: AddPostComponent },
+  { path: 'post', component: AllPostsComponent },
+  { path: 'post/:id', component: DetailViewComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
