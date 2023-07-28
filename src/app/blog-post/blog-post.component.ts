@@ -9,15 +9,16 @@ import { marked } from 'marked';
 })
 export class BlogPostComponent implements OnInit {
   @Input()
-  post: BlogPost = {
+  public post: BlogPost = {
     title: 'This is the title',
   };
 
   @Input()
-  preview?: string;
+  public preview?: string;
 
   @Input()
-  buttonDisabled: boolean = false;
+  public buttonDisabled: boolean = false;
+
   constructor(private sanitizer: DomSanitizer) {}
   formatDateAndTime(date: Date): string {
     const daysOfWeek = [

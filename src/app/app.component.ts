@@ -8,8 +8,9 @@ import { BlogPost } from './blog';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  posts: BlogPost[] = [];
-  currentPage: string = 'allPosts';
+  public posts: BlogPost[] = [];
+  public currentPage: string = 'allPosts';
+
   constructor(public postsService: PostsService) {}
   ngOnInit() {
     this.postsService.getPosts().subscribe((posts) => (this.posts = posts));

@@ -13,10 +13,11 @@ import { marked } from 'marked';
   styleUrls: ['./add-post.component.css'],
 })
 export class AddPostComponent implements OnInit {
-  newPost: FormGroup;
-  markdownContent: string = '## Heading 2\n\nThis is a **Markdown** example.\n';
-  renderedMarkdown: SafeHtml = '';
-  previewBlogPost: BlogPost = {};
+  public newPost: FormGroup;
+  public markdownContent: string =
+    '## Heading 2\n\nThis is a **Markdown** example.\n';
+  public renderedMarkdown: SafeHtml = '';
+  public previewBlogPost: BlogPost = {};
 
   constructor(
     private sanitizer: DomSanitizer,
